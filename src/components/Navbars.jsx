@@ -1,6 +1,6 @@
 import  { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../assets/Logo.png';
+import logo from '../assets/dhushyandan.png';
 
 const Navbars = () => {
   const [loading, setLoading] = useState(true);
@@ -63,8 +63,8 @@ const Navbars = () => {
 
       {/* Navbar for desktop */}
       <nav id="lapview" className="hidden sm:flex z-10 sticky top-0 justify-between border-4 rounded-r-lg transition duration-500 bg-black ease-in-out p-2 text-white h-36">
-        <Link to="/">
-          <img className="bg-purple-900 rounded-lg p-1 mt-2 ml-2" src={logo} alt="Profile Image" width="120" />
+        <Link  to="/download">
+          <img className="bg-slate-400  mt-2  ml-2 w-36 h-26 rounded-full border-2 border-b-0 border-white shadow-2xl" src={logo} alt="Profile Image" width="120"  />
         </Link>
         <div className="px-4 py-8">
           <ul id="myDIV" className="flex px-4 space-x-24">
