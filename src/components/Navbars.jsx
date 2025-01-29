@@ -93,9 +93,9 @@ const Navbars = () => {
       </nav>
 
       {/* Navbar for mobile */}
-      <nav className="sm:hidden z-10 sticky top-0 flex justify-between items-center bg-black border-4 rounded-r-lg transition duration-500 bg-black ease-in-out h-36 p-4">
-        <Link to="/">
-          <img className="bg-purple-900 rounded-lg p-1" src={logo} alt="Profile Image" width="120" />
+      <nav className="sm:hidden z-10 sticky top-0 flex justify-between items-center bg-black border-4 rounded-r-lg transition duration-500  ease-in-out h-36 p-4">
+        <Link to="/download">
+          <img className=" mt-1 bg-slate-400   ml-2 w-36 h-26 rounded-full border-2 border-b-0 border-white shadow-2xl p-1" src={logo} alt="Profile Image" width="120" />
         </Link>
         <button onClick={toggleSidebar} className="text-white focus:outline-none">
           <svg xmlns="http://www.w3.org/2000/svg" id="nav" className="h-10 w-10 hover:text-gray-200 flex" fill="none" viewBox="0 0 24 24" stroke="currentColor">
