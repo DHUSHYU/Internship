@@ -13,7 +13,7 @@ const PORT = 5000;
 app.use(cors());
 app.use(cors({
 
-  origin:"https://dhushyu-portfolio.vercel.app/",
+  origin:"https://dhushyu-portfolio.vercel.app",
   methods:"GET,POST,PUT,DELETE",
   credentials:true
 }));
