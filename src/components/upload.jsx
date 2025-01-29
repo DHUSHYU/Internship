@@ -11,7 +11,7 @@ const UploadPage = () => {
         const formData = new FormData();
         formData.append('file', file);
 
-        const res = await fetch('http://localhost:5000/upload', {
+        const res = await fetch('https://internship-921a.onrender.com/upload', {
             method: 'POST',
             body: formData
         });

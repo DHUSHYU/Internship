@@ -7,7 +7,7 @@ const ViewPage = () => {
       
       {/* Show PDF in an iframe */}
       <iframe 
-        src="http://localhost:5000/Dhushyu_resume" 
+        src="https://internship-921a.onrender.com/Dhushyu_resume" 
         width="100%" 
         height="500px"
         className="no-scrollbar"
