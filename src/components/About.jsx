@@ -34,10 +34,10 @@ export default function About() {
         <motion.div
           ref={ref}
           className="md:w-1/3 flex justify-evenly mt-8 md:mt-0"
-          initial={{ x: -360, scale: 0.9, opacity: 0 }}
+          initial={{ x: -300, scale: 0.9, opacity: 0 }}
           animate={controls}
           transition={{ duration: 1 }}
-          whileHover={{ rotate: 5, scale: 1.05 }}
+          whileHover={{ rotate: 6, scale: 1.05 }}
         >
           <img
             src={Dhush}
