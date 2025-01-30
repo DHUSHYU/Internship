@@ -36,7 +36,7 @@ export default function About() {
           className="md:w-1/3 flex justify-evenly mt-8 md:mt-0"
           initial={{ x: -300, scale: 0.9, opacity: 0 }}
           animate={controls}
-          transition={{ duration: 1 }}
+          transition={{ duration: 2 }}
           whileHover={{ rotate: 6, scale: 1.05 }}
         >
           <img
