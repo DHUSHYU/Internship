@@ -39,7 +39,7 @@ const ContactPage = () => {
                 alt="Contact Avatar"
                 className="relative rounded-full w-72 h-72 md:w-[60vh] md:h-[60vh] object-cover"
                 animate={controls}  // Apply animation controls here
-                initial={{ x: -300, opacity: 0 }}  // Set initial position off-screen
+                initial={{ x: 300, opacity: 0 }}  // Set initial position off-screen
               />
             </div>
 
